@@ -1,0 +1,80 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  html,body{
+    background-color: #e7e7e7;
+  }
+  
+.logOut{
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(67, 185, 127);
+}
+.input-and-button {
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+  }
+  
+  .input-box {
+    flex: 1;
+    height: 40px;
+    padding: 0 10px;
+    margin-left: 8%;
+  }
+  
+  .button {
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .todo{
+    margin: 15px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+  }
+  
+  .todo input{
+    margin-right: 10px;
+    
+  }
+  
+  .todo span{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(93, 70, 13);
+  }
+  
+  .edit-and-delete{
+    display: flex;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* border-radius: 5px; */
+    
+  }
+  .todo{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+  }
+  
+  .delete-all{
+    padding: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(67, 185, 127);
+  }
